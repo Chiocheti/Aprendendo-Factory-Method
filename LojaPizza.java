@@ -8,6 +8,20 @@
  *
  * @author Gabriel
  */
-public class LojaPizza {
+public abstract class LojaPizza {
     
+    public Pizza orderPizza(String tipo){
+        
+        Pizza pizza;
+        pizza = criarPizza(tipo);
+        
+        pizza.preparar();
+        pizza.assar();
+        pizza.cortar();
+        pizza.embalar();
+        
+        return pizza;
+    }
+    
+    public abstract Pizza criarPizza(String tipo);
 }
