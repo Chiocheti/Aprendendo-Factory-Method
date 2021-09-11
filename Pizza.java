@@ -37,11 +37,11 @@ public class Pizza {
         }
         
         public void cortar(){
-            System.out.println(" Cortando a Pizza !!!");
+            System.out.println("Cortando a Pizza !!!");
         }
         
         public void embalar(){
-            System.out.println(" Embalando a Pizza !!!");
+            System.out.println("Embalando a Pizza !!!");
         }
         
         public String getNome(){
